@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inês Pereira | Entre Parecer e Ser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">GIL VICENTE <span>INTERATIVO</span></div>
+    <nav class="nav-links">
+        <button class="nav-item active" onclick="switchTab(event, 'introducao')">A Obra</button>
+        <button class="nav-item" onclick="switchTab(event, 'personagens')">Personagens</button>
+        <button class="nav-item" onclick="switchTab(event, 'autor')">Gil Vicente</button>
+        <button class="nav-item highlight" onclick="switchTab(event, 'jogo')">Entrar na Farsa</button>
+    </nav>
+</header>
+
+<main class="container">
+    
+    <section id="introducao" class="content active">
+        <h1>A Farsa de Inês Pereira</h1>
+        <div class="hero-image">
+            <img src="imagens\Teatro-1.png" alt="Encenação da Farsa de Inês Pereira">
+        </div>
+        
+        <div class="text-block">
+            <h3>Contexto Histórico</h3>
+            <p>A Farsa de Inês Pereira foi escrita e representada por Gil Vicente em 1523, durante o século XVI, um período de grandes transformações em Portugal e na Europa. Portugal vivia o auge dos Descobrimentos, com riqueza a entrar no reino, mas essa prosperidade não era distribuída de forma justa. Havia fortes desigualdades sociais e uma sociedade muito rígida, organizada por classes.</p>
+            <h3>O Desafio</h3>
+            <p>Diziam que ele escrevia sempre peças iguais, com uma moral muito evidente e personagens castigadas no final. Para contrariar essa crítica, Gil Vicente decidiu criar uma obra diferente, em que a moral não fosse apresentada de forma direta e em que a protagonista não fosse punida de maneira extrema.</p>
+        </div>
+    </section>
+
+    <section id="personagens" class="content">
+        <h2>Figuras da Farsa</h2>
+        <div class="char-grid">
+            <div class="char-card">
+                <img src="imagens\294741670_390167113208928_512386980060980228_n.jpg" alt="Inês Pereira" class="char-img">
+                <h3>Inês Pereira</h3>
+                <p>A protagonista que desafia os costumes, procurando um marido "discreto" e culto para fugir à rotina doméstica.</p>
+            </div>
+            <div class="char-card">
+                <img src="imagens\475283651_1550604802312659_8558539267729955384_n.jpg" alt="Pero Marques" class="char-img">
+                <h3>Pero Marques</h3>
+                <p>O "asno". Camponês rico, mas desajeitado e literal. Representa a segurança sem o brilho que Inês deseja.</p>
+            </div>
+            <div class="char-card">
+                <img src="imagens\06-05.jpg" alt="Brás da Mata" class="char-img">
+                <h3>Brás da Mata</h3>
+                <p>O Escudeiro. O "cavalo" que a derruba. Nobre falido, violento e falso, que conquista Inês apenas pela aparência.</p>
+            </div>
+            <div class="char-card">
+                <img src="imagens\475042479_1550604395646033_3324084008843540757_n.jpg" alt="Leonor de Vaz" class="char-img">
+                <h3>Leonor de Vaz</h3>
+                <p>A alcoviteira fofoqueira que serve de ponte entre Inês e os seus pretendentes.</p>
+            </div>
+            <div class="char-card">
+                <img src="imagens\475275937_1550604782312661_8728948585797733205_n.jpg" alt="A Mãe" class="char-img">
+                <h3>A Mãe</h3>
+                <p>Representa a voz da experiência e o medo da desonra social, tentando guiar Inês para um caminho seguro.</p>
+            </div>
+            <div class="char-card">
+                <img src="imagens\475304785_1550604745645998_4296948828394906102_n.jpg" alt="Ermitão" class="char-img">
+                <h3>O Ermitão</h3>
+                <p>Figura satírica que utiliza a religião para ocultar segundas intenções e desejos mundanos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="autor" class="content">
+        <h2>Gil Vicente: O Espelho da Sociedade Quinhentista</h2>
+        
+        <div class="text-block">
+            <h3>A Figura Histórica</h3>
+            <p>Gil Vicente (c. 1465 – 1536) é o "Pai do Teatro Português". Embora a sua biografia tenha lacunas, sabe-se que foi uma figura central nas cortes de D. Manuel I e D. João III. Além de dramaturgo, era mestre de cerimónias, ator e músico, representando o ideal do homem polifacetado do Renascimento.</p>
+            
+            <h3>A Técnica das Personagens-Tipo</h3>
+            <p>Gil Vicente não criava personagens com psicologia complexa ou nomes próprios (salvo raras exceções como Inês Pereira). Ele trabalhava com <strong>Personagens-Tipo</strong>: figuras que representam um grupo social inteiro através dos seus vícios, roupas e linguagem. 
+            Ao ver um "Frade" ou um "Escudeiro" em palco, o público da época reconhecia imediatamente a crítica à corrupção da Igreja ou à fidalguia falida.</p>
+
+            <h3>Linguagem e Versificação</h3>
+            <p>O autor utilizava a <strong>Redondilha Maior</strong> (versos de sete sílabas métricas), o que dava um ritmo musical e popular às peças. A sua linguagem é um tesouro linguístico, misturando:</p>
+            <ul>
+                <li><strong>Arcaísmos:</strong> Palavras antigas que mostram a evolução do português.</li>
+                <li><strong>Bilinguismo:</strong> O uso constante do castelhano, comum na corte portuguesa.</li>
+                <li><strong>Linguagem Popular:</strong> O uso de calão, provérbios e ditos da rua para dar realismo às cenas.</li>
+            </ul>
+
+            <h3>A Crítica Social: "Ridentem Dicere Verum"</h3>
+            <p>A máxima latina que guia a sua obra significa <em>"A rir se dizem as verdades"</em>. Gil Vicente usava o cómico como uma arma pedagógica. Ele acreditava que, ao rir do comportamento ridículo de um juiz corrupto ou de uma moça pretensiosa, a sociedade poderia refletir e corrigir os seus próprios erros.</p>
+            
+            <h3>O Legado e a Modernidade</h3>
+            <p>Apesar de ter escrito há mais de 500 anos, os temas de Gil Vicente continuam atuais. A exploração dos mais fracos, a hipocrisia religiosa e a obsessão com as aparências (o "parecer" acima do "ser") são dilemas que ainda encontramos na sociedade moderna. Sem Gil Vicente, o teatro em Portugal e no Brasil não teria a mesma identidade satírica e humana.</p>
+        </div>
+
+        <div class="curiosidade-box" style="margin-top: 20px; padding: 15px; background: #eee; border-left: 5px solid var(--gold);">
+            <strong>Sabias que?</strong> 
+            A "Farsa de Inês Pereira" é considerada a obra mais perfeita de Gil Vicente do ponto de vista estrutural, pois as cenas ligam-se de forma lógica e fluida, ao contrário de outros autos que são apenas uma sucessão de episódios soltos.
+        </div>
+    </section>
+
+    <section id="jogo" class="content">
+        <div class="game-layout">
+            <aside class="sidebar">
+                <h3>Atributos</h3>
+                <div class="stat-box">Ambição: <span id="val-ambicao">0</span></div>
+                <div class="stat-box">Prudência: <span id="val-prudencia">0</span></div>
+                <div class="stat-box">Liberdade: <span id="val-liberdade">0</span></div>
+                <div class="stat-box">Hipocrisia: <span id="val-hipocrisia">0</span></div>
+                <hr>
+                <div class="stat-box">Reputação: <strong id="val-reputacao">Honrada</strong></div>
+            </aside>
+            <div class="game-main">
+                <div id="coro-box" class="coro-msg">"Vede agora, senhores..."</div>
+                <div class="game-screen">
+                    <h2 id="ato-title">Prólogo</h2>
+                    <p id="game-text">O Coro observa a cena...</p>
+                    <div id="btn-group" class="btn-container"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
